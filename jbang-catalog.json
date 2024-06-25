@@ -1,7 +1,7 @@
 {
   "aliases": {
     "spring": {
-      "script-ref": "org.springframework.boot:spring-boot-cli:2.4.5:full",
+      "script-ref": "org.springframework.boot:spring-boot-cli:3.3.0:full",
       "description": "Spring Boot CLI"
     },
     "configserver": {
