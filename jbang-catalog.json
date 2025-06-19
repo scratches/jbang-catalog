@@ -4,6 +4,10 @@
       "script-ref": "org.springframework.boot:spring-boot-cli:3.3.0:full",
       "description": "Spring Boot CLI"
     },
+    "script": {
+      "script-ref": "example/ScriptRun.java",
+      "description": "Spring Script Runner"
+    },
     "configserver": {
       "script-ref": "example/ConfigServerApplication.java",
       "description": "Spring Cloud Config Server with example config repo"
