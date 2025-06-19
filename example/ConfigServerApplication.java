@@ -1,6 +1,6 @@
 //usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.springframework.boot:spring-boot-dependencies:3.2.6@pom
-//DEPS org.springframework.cloud:spring-cloud-dependencies:2023.0.0@pom
+//DEPS org.springframework.boot:spring-boot-dependencies:3.5.0@pom
+//DEPS org.springframework.cloud:spring-cloud-dependencies:2025.0.0@pom
 //DEPS org.springframework.cloud:spring-cloud-config-server
 //FILES ../application.yml
 package example;
