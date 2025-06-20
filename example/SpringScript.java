@@ -11,7 +11,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ScriptRun {
+public class SpringScript {
 
 	public static SpringApplicationBuilder from(Class<?> ...classes) {
 		return new SpringApplicationBuilder(extract(classes, 1));
