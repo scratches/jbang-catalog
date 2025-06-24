@@ -8,6 +8,10 @@
       "script-ref": "example/SpringScript.java",
       "description": "Spring Script Runner"
     },
+    "springbom": {
+      "script-ref": "example/SpringBom.java",
+      "description": "Spring Bom"
+    },
     "configserver": {
       "script-ref": "example/ConfigServerApplication.java",
       "description": "Spring Cloud Config Server with example config repo"
