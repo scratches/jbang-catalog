@@ -1,5 +1,5 @@
 //usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.springframework.boot:spring-boot-dependencies:3.5.0@pom
+//DEPS org.springframework.boot:spring-boot-dependencies:3.5.5@pom
 //DEPS org.springframework.boot:spring-boot-starter
 //SOURCES GenericApplication.java
 
