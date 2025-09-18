@@ -12,6 +12,10 @@
       "script-ref": "example/SpringBom.java",
       "description": "Spring Bom"
     },
+    "generic": {
+      "script-ref": "example/GenericApplication.java",
+      "description": "Generic Spring Application"
+    },
     "configserver": {
       "script-ref": "example/ConfigServerApplication.java",
       "description": "Spring Cloud Config Server with example config repo"
