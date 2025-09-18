@@ -13,7 +13,7 @@
       "description": "Spring Bom"
     },
     "generic": {
-      "script-ref": "example/Generic.java",
+      "script-ref": "example/GenericApplication.java",
       "description": "Generic Spring Application"
     },
     "configserver": {
