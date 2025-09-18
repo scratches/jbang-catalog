@@ -2,13 +2,11 @@
 //DEPS org.springframework.boot:spring-boot-dependencies:3.5.5@pom
 //DEPS org.springframework.boot:spring-boot-starter
 
-package example;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// Used by SpringScript to launch a generic Spring Boot application
-@SpringBootApplication public class GenericApplication {
+// Use this one in a .jsh because it has no package
+@SpringBootApplication class GenericApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GenericApplication.class, args);
 	}

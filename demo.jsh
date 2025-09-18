@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //SOURCES springbom@scratches
-//DEPS https://github.com/scratches/spring-script
+//SOURCES generic@scratches
 //JAVA 17
 
 import org.springframework.boot.CommandLineRunner;
@@ -16,7 +16,5 @@ import org.springframework.context.annotation.Configuration;
 	}
 
 }
-
-import org.springframework.script.GenericApplication;
 
 new SpringApplication(GenericApplication.class, Demo.class).run(args);
