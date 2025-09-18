@@ -1,6 +1,5 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //SOURCES script@scratches
-//DEPS https://github.com/scratches/spring-script
 //JAVA 25
 
 import org.springframework.boot.CommandLineRunner;
