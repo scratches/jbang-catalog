@@ -30,7 +30,7 @@ This is a utility to load a bunch of useful BOMs (Spring Boot, Cloud, etc.)
 //SOURCES springbom@scratches
 ```
 
-This and includes the `spring-script` utility that has some useful things in it.
+This and includes the `GenericApplication` utility that has some useful things in it.
 ```java
 //SOURCES generic@scratches
 ```
@@ -52,7 +52,6 @@ And some imports that we will need later:
 ```java
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 ```
@@ -78,7 +77,7 @@ Watch out for type-level annotations: you have to include them on the same line 
 }
 ```
 
-The `SpringScript` utility defined in `scratches/spring-script` is in the default package and JShell doesn't like that, so you have to use `SpringApplication` directly to run Spring Boot. `GenericApplication` is a class that is used to run the application in a generic way, without needing to specify a main class (it's just an empty class with `@SpringBootApplication` on it).
+The `SpringScript` utility defined in `example/SpringScript.java` is in the default package and JShell doesn't like that, so you have to use `SpringApplication` directly to run Spring Boot. `GenericApplication` is a class that is used to run the application in a generic way, without needing to specify a main class (it's just an empty class with `@SpringBootApplication` on it).
 
 ```java
 new SpringApplication(GenericApplication.class, Demo.class).run(args);
