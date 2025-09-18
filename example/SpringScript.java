@@ -1,7 +1,7 @@
 //usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS org.springframework.boot:spring-boot-dependencies:3.5.5@pom
 //DEPS org.springframework.boot:spring-boot-starter
-//SOURCES GenericApplication.java
+//SOURCES Generic.java
 
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -23,7 +23,7 @@ public class SpringScript {
 
 	private static Class<?>[] extract(Class<?>[] classes, int stackLevel) {
 		Set<Class<?>> classList = new LinkedHashSet<>(List.of(classes));
-		classList.add(example.GenericApplication.class);
+		classList.add(example.Generic.class);
 		Class<?> caller = ClassUtils.resolveClassName(new RuntimeException().getStackTrace()[stackLevel].getClassName(),
 				null);
 		if (caller != null) {

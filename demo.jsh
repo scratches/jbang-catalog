@@ -1,4 +1,4 @@
-///usr/bin/env jbang "$0" "$@" ; exit $?
+///usr/bin/env jbang --fresh "$0" "$@" ; exit $?
 //SOURCES springbom@scratches
 //SOURCES generic@scratches
 //JAVA 17
