@@ -9,6 +9,8 @@ import java.util.Set;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.annotation.AnnotatedElementUtils;
+import org.springframework.stereotype.Component;
 import org.springframework.util.ClassUtils;
 
 public class SpringScript {
@@ -28,7 +30,7 @@ public class SpringScript {
 				null);
 		if (caller != null) {
 			for (Class<?> c : caller.getDeclaredClasses()) {
-				if (!c.isRecord()) {
+				if (AnnotatedElementUtils.isAnnotated(c, Component.class)) {
 					classList.add(c);
 				}
 			}
