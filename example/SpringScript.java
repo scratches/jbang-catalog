@@ -28,7 +28,9 @@ public class SpringScript {
 				null);
 		if (caller != null) {
 			for (Class<?> c : caller.getDeclaredClasses()) {
-				classList.add(c);
+				if (!c.isRecord()) {
+					classList.add(c);
+				}
 			}
 			classList.add(caller);
 		}
